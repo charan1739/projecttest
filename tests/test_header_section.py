@@ -1,8 +1,8 @@
 import pytest
 import time
 from selenium import webdriver
-from login_page import LoginPage
-from header_section import HeaderSection
+from pages.login_page import LoginPage
+from pages.header_section import HeaderSection
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

@@ -3,9 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from login_page import LoginPage
-from jobs_page import JobsPage
-from home_page import HomePage
+from pages.login_page import LoginPage
+from pages.jobs_page import JobsPage
+from pages.home_page import HomePage
 import time
 
 @pytest.fixture()

@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from login_page import LoginPage
+from pages.login_page import LoginPage
 import time
 
 @pytest.fixture()
